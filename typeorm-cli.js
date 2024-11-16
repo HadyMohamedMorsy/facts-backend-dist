@@ -10,7 +10,7 @@ const config = {
     username: `postgres`,
     password: `123`,
     database: `facts`,
-    entities: ["src/**/*.entity{.ts,.js}"],
+    entities: [__dirname + "/src/**/*.entity{.ts,.js}"],
     migrations: [_1731712390430_firstmigrations_1.Firstmigrations1731712390430],
     autoLoadEntities: true,
     synchronize: false,
